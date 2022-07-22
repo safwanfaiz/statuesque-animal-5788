@@ -1,0 +1,348 @@
+body{
+    background-color: rgb(255,248,241);
+    
+}
+#home{
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+#home>h1{
+   
+}
+#home>h3{
+    color: grey;
+}
+
+#image-div{
+margin-left: auto;
+border-top: 1px solid rgb(250,93,0);
+width: 70%;
+
+}
+#home>h3{
+margin-bottom: -27px;
+margin-left: 40px;
+}
+#home>h3>span{
+color: rgb(250,93,0);
+}
+#review{
+ margin: auto;
+ border: 1px solid transparent;
+ width: fit-content;
+ display: flex;
+ margin-bottom: -70px;
+}
+#review>p>span{
+color: black;
+}
+#here{
+text-align: center;
+font-size: 59px !important;
+width: 70%;
+line-height: 56px;
+font-weight: 300;
+margin-bottom: 17px;
+font-family: "Monarch","Georgia","Times New Roman",serif;
+margin: auto;
+
+
+}
+#h31{
+text-align: center;
+color: grey;
+font-style: normal;
+}
+#btn>button{
+    display: block;
+    width:12%;
+    height: 58%;
+    padding: 10px 5px ;
+    font-size: 19px;
+    font-weight: 500;
+    background-color:rgb(250,93,0);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin: auto;
+    position: sticky;
+}
+#btn>button>a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+#tru{
+ text-align: center;
+ color: gray;
+ font-style: normal;
+}
+#anl>img{
+display: block;
+ width: 90%;
+ margin: auto;
+}
+#logo{
+/* border: 1px solid red; */
+height: 140px;
+width: 98%;
+display: grid;
+grid-template-columns: repeat(9,1fr);
+grid-template-rows: repeat(1,auto);
+gap: 35px;
+margin: auto;
+opacity: .2;
+}
+#logo>div{ 
+/* border: 1px solid red; */
+margin: auto;
+margin-left: 40px;
+
+}
+#image-div2{
+border-top: 1px solid rgb(250,93,0);
+
+}
+#fea{
+    margin-left: 75px;
+}
+#oh{
+    margin-left: 75px;
+    margin-top: 90px;
+}
+#fea>p,#imgbig1>p,#oh>p{
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    color: rgba(250,93,0,100%);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+     letter-spacing: .3px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#fea>h2,#imgbig1>h2,#oh>h2{
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 42px;
+    font-family: MuotoWeb,sans-serif;
+    font-style: normal;
+    color: #1d1e1c;
+}
+#fea>h4,#imgbig1>h4,#oh>h4{
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    color: #1d1e1c;
+    font-size: 20px;
+    margin-top: -10px;
+}
+#fea2{
+    /* border: 1px solid red; */
+    display: grid;
+    height: 140px;
+    width: 87%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: (1,100%);
+    column-gap: 30px;
+    margin: auto;
+    
+}
+#fea2>div:hover{
+    color:rgb(250,93,0);
+    background-color: rgb(247, 213, 179);
+}
+#fea2>div>a>div{
+    border: 1px solid rgb(250,93,0);
+}
+#fea2>div>a{
+    color: black;
+    text-decoration: none;
+}
+#fea2>div{
+    border: 1px solid rgb(250,93,0);
+    border-radius: 12px;
+} 
+#fea2>div>a>h4{
+    width: 90%;
+margin-bottom: 0;
+margin-top: 0;
+font-weight: 300;
+font-size: 25px ;
+line-height: 30px;
+margin-left: 75px;
+margin-top: -50px;
+text-decoration: none;
+
+}
+#fea2>div>a>h4:hover{
+    color:rgb(250,93,0);
+}
+#fea2>div>a>img{
+    margin-left: 13px;
+    width: 60px;
+}
+#fea2>div>a>p{
+    margin-top: 20px;
+font-weight: 400;
+width: 85%;
+font-size: 18px;
+line-height: 29px;
+font-family: 'MuotoTrial reg';
+margin-left: 10px;
+font-size: 20px;
+}
+#bt>a>button{
+    background-color: black;
+    color: white;
+    width: 10%;
+    padding: 15px 15px;
+    border-radius: 18px;
+    border: none;
+    margin: 20px 0px 0px 90px;
+    font-size: 17px;
+}
+#bt>a>button:hover{
+    transform: scale(1.2);
+}
+#imgbig{
+    background-image: url("https://19495563.fs1.hubspotusercontent-na1.net/hubfs/19495563/raw_assets/public/harvest-theme/images/auras/aura-top-small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0;
+    
+}
+#imgbig>div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+
+}
+#imgbig>div>img{
+    width: 50%;
+    
+
+}
+#imgbig1{
+    width: 50%;
+    margin-left: 60px;
+}
+#imgbig1>a>button{
+   
+    width:40%;
+    padding: 10px 5px ;
+    font-size: 19px;
+    font-weight: 500;
+    background-color:black;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin: auto;
+    position: sticky;
+}
+#imgbig1>a>button:hover{
+    transform: scaleX(1.1);
+}
+#lin,#lin1{
+    border-top: 1px solid rgb(250,93,0);
+    width: 91%;
+    margin: auto;
+    margin-top: 70px;
+}
+#more{
+    width: 92%;
+    display: flex;
+    margin: auto;
+    margin-top: 90px;
+}
+#more1{
+    width: 45%;
+    font-size: 30px;
+    border-left: 1px solid rgb(250,93,0);
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    border-right:  1px solid rgb(250,93,0);
+    font-family: MuotoWeb,sans-serif;
+    line-height: -20px;
+    background-image: url("https://19495563.fs1.hubspotusercontent-na1.net/hubfs/19495563/raw_assets/public/harvest-theme/images/auras/aura-top-small.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 30px;
+}
+#more>img{
+    width: 50%;
+    padding-left: 20px;
+    border-right: 1px solid rgb(250,93,0);
+    padding-right: 20px;
+   
+}
+
+#nbtn>a>button{
+   
+    width:18%;
+    padding: 11px 0px ;
+    font-size: 20px;
+    font-weight: 500;
+    background-color:black;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    margin: auto;
+    margin-left: 75px;
+    margin-top: 20px;
+    opacity: .8;
+}
+#saf{
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3,145px);
+    width: 40%;
+
+    
+}
+#saf>div{
+    border: 1px solid rgb(250,93,0);
+    border-left: none;
+    border-right: none;
+    justify-content: flex-end
+    /* height: 130px; */
+}
+#saf>div>img{
+    margin-top: 30px;
+}
+#saf>div>a>div{
+    margin-top: -85px;
+    margin-left: 90px;
+    width: 60%;
+    
+}
+#saf>div>a{
+    color: black;
+    text-decoration: none;
+}
+#saf>div>a>:nth-child(2){
+    border: none;
+}
+#saf>div>a>div:hover{
+    color: rgb(250,93,0);
+}
+#saf>div>a>div>p{
+    font-family: MuotoWeb,sans-serif;
+    font-size: 18px;
+    margin-top: 8px;
+    font-style: normal;
+    text-decoration: none;
+   
+
+}
+#saf>div>a>div>h3{
+    font-family: MuotoWeb,sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
