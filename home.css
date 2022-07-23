@@ -54,7 +54,7 @@ text-align: center;
 color: grey;
 font-style: normal;
 }
-#btn>button{
+#btn>button,#lap>button{
     display: block;
     width:12%;
     height: 58%;
@@ -66,7 +66,7 @@ font-style: normal;
     border-radius: 15px;
     color: white;
     margin: auto;
-    position: sticky;
+
 }
 #btn>button>a{
     color: white;
@@ -105,7 +105,7 @@ margin-left: 40px;
 border-top: 1px solid rgb(250,93,0);
 
 }
-#fea{
+#fea,#lap{
     margin-left: 75px;
 }
 #oh{
@@ -123,7 +123,7 @@ border-top: 1px solid rgb(250,93,0);
      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-#fea>h2,#imgbig1>h2,#oh>h2{
+#fea>h2,#imgbig1>h2,#oh>h2,#lap>div>div>h2{
     font-weight: 400;
     text-decoration: none;
     font-size: 42px;
@@ -131,7 +131,7 @@ border-top: 1px solid rgb(250,93,0);
     font-style: normal;
     color: #1d1e1c;
 }
-#fea>h4,#imgbig1>h4,#oh>h4{
+#fea>h4,#imgbig1>h4,#oh>h4,#lap>div>div>h4{
     text-decoration: none;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: normal;
@@ -302,37 +302,42 @@ font-size: 20px;
     margin-top: 60px;
     grid-template-columns: repeat(1,1fr);
     grid-template-rows: repeat(3,145px);
-    width: 40%;
-
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 110px;
+    background-image: url("https://19495563.fs1.hubspotusercontent-na1.net/hubfs/19495563/raw_assets/public/harvest-theme/images/auras/aura-bottom-blur.jpg");
     
 }
-#saf>div{
+#saf>div>div{
     border: 1px solid rgb(250,93,0);
     border-left: none;
     border-right: none;
-    justify-content: flex-end
+    width: 80%;
+    margin-left: 140px;
+   
     /* height: 130px; */
 }
-#saf>div>img{
+#saf>div>div>img{
     margin-top: 30px;
 }
-#saf>div>a>div{
+#saf>div>div>a>div{
     margin-top: -85px;
     margin-left: 90px;
-    width: 60%;
+    width: 70%;
     
 }
-#saf>div>a{
+#saf>div>div>a{
     color: black;
     text-decoration: none;
 }
-#saf>div>a>:nth-child(2){
+#saf>div>div>a>:nth-child(2){
     border: none;
 }
-#saf>div>a>div:hover{
+#saf>div>div>a>div:hover{
     color: rgb(250,93,0);
 }
-#saf>div>a>div>p{
+#saf>div>div>a>div>p{
     font-family: MuotoWeb,sans-serif;
     font-size: 18px;
     margin-top: 8px;
@@ -341,8 +346,90 @@ font-size: 20px;
    
 
 }
-#saf>div>a>div>h3{
+#saf>div>div>a>div{
+    margin-top: -115px;
+}
+#saf>div>div>a>div>h3{
+font-weight: 400;
+text-decoration: none;
+font-family: MuotoWeb,sans-serif;
+font-size: 29px;
+}
+#saf>div>h2{
+    font-weight: 400;
+    text-decoration: none;
     font-family: MuotoWeb,sans-serif;
+    font-style: normal;
+    color: #1d1e1c;
+    font-size: 42px;
+}
+#saf>div>p{
     font-size: 20px;
-    margin-bottom: 5px;
+line-height: 20px;
+font-weight: 700;
+color: rgba(250,93,0,100%);
+margin-bottom: 18px;
+text-transform: uppercase;
+letter-spacing: .3px;
+margin-bottom: 50px;
+}
+#no4{
+border: 1px solid rgba(250,93,0,100%) ;
+margin-top: 40px;
+width: 100%;
+}
+#lap{
+    margin-top: 50px;
+    display: flex;
+}
+
+#lap>div>div>button{
+    display: block;
+    width:29%;
+    height: 58%;
+    padding: 10px 5px ;
+    font-size: 19px;
+    font-weight: 500;
+    background-color:rgb(250,93,0);
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+}
+#lap>div>div>button>a{
+    color: white;
+    text-decoration: none;   
+}
+#lap>div>div{
+    display: flex;
+    margin-top: 20px;
+   
+   }
+   #lap>div>div>h4{
+    margin-left: -450px;
+    font-weight: normal;
+    text-decoration: none;
+    font-family: MuotoWeb,sans-serif;
+    font-style: normal;
+    color: #1d1e1c;
+    font-size: 26px;
+    margin-top: 110px;
+    width: 80%;
+   }
+   #lap>div>img{
+    margin-left: -20px;
+    margin-top: 70px;
+   }
+#lap>div>div>p{
+ color: grey;
+ font-weight: normal;
+ text-decoration: none;
+ font-family: MuotoWeb,sans-serif;
+ font-style: normal;
+ font-size: 19px;
+margin-left: 15px;
+display: inline-block;
+color: rgba(29,30,28,60%);
+margin-top: 9px;
+
 }
