@@ -1,0 +1,119 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #log {
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 270px;
+    width: 30%;
+    padding: 40px;
+    box-shadow: rgba(113, 170, 226, 0.2) 0px 10px 20px;
+    background-color: rgb(255,248,241);
+    border: .5px solid rgb(250,93,0);
+  }
+
+  h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  textarea {
+    border: 1px solid rgb(247, 242, 242);
+    width: 92%;
+    padding: 14px;
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  /* } input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  textarea:hover{
+    background-color: beige;
+  } */
+
+  #no9{
+    text-align: center;
+    color: gray;
+    font-size: 17px;
+  }
+  #no9>a{
+    text-decoration: none;
+    margin: auto;
+    width: 50%;
+    color: grey;
+
+  }
+  #no9>a:hover{
+    color: rgb(250,93,0);
+  }
+
+  div {
+    width: 13%;
+    display: flex;
+    margin: auto;
+
+  }
+
+  div>img {
+    width: 100%;
+  }
+
+  label {
+    font-size: 23px;
+  }
+  button{
+    width: 100%;
+    margin: auto;
+    border: none;
+    padding: 13px 21px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(24,132,51);
+    color: white;
+    text-align: center;
+
+  }
+  button:hover{
+    background-color: green;
+  }
+  #nbtn1{
+  width: 100%;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 8px;
+
+} 
+#nbtn1:hover{
+  background-color: rgb(207, 191, 191);
+}
+#nbtn1>p{
+  margin-left: 26%;
+ 
+}
+#nbtn1>a{
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  margin-left: 90px;
+  font-size: 18px;
+}
+#nbtn1>img{
+width: 10%;
+border-radius: 50%;
+
+}
+#are{
+  text-align: center;
+  color: gray;
+  font-size: 17px;
+}

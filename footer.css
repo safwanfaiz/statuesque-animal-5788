@@ -1,10 +1,11 @@
  
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+#mera{
+    
+   
     background-color: rgb(29,30,28);
-    font-family:NotoSansRegular, sans-serif;
+    margin-top: 50px;
+    height: auto;
+   
  }
 
 ul{
@@ -19,6 +20,7 @@ ul{
 }
 #bag ul li{
     margin-top: 20px;
+    margin-left: -40px;
     
 }
 #bag  ul li:not(:last-child){
@@ -42,11 +44,10 @@ ul{
 #bag{
     display: flex;
     justify-content: space-around;
-    margin-top: 110px;
+    margin-top: 40px;
     font-size: 13px;
     width: 90%;
-    margin-left: 80px;
-    margin-left: 80px;
+    margin-left: 60px;
     color: rgba(255,248,241,100%);
     padding-bottom: 1px;
     transition: color .2s,border .2s;
@@ -58,7 +59,7 @@ ul{
 }
 #bag>div>img{
     width: 60%;
-    margin-top: -35px;
+    margin-top: 25px;
     color: white;
 }
 #me>button{
@@ -71,6 +72,7 @@ ul{
     margin-left: 70px;
     font-size: 17px;
     border: .3px solid gray;
+    background-color: transparent;
 }
 #me>button:hover{
     color:rgb(250,93,0);
@@ -104,9 +106,20 @@ color: rgb(250,93,0);
 #botm{
     margin-left: 60%;
     margin-top: 30px;
+    width: 40%;
+    margin-bottom: 2%;
     
 }
-#botm>a{
+#botm>a>svg{
+    width: 6%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#may{
+    margin-left: 60px;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: -3%;
     
 }
 
