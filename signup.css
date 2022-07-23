@@ -1,0 +1,176 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  #login {
+    margin: 0 auto;
+    margin-top: 28px;
+    height: auto;
+    width: 65%;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 12px;
+    background-color: white;
+    margin-right: 60px;
+    
+
+  }
+  #login>h1{
+      text-align: center;
+      font-size: 48px ;
+  }
+  #name{
+      display: flex;
+  }
+
+  h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 12px ;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  textarea {
+    border: 1px solid rgb(247, 242, 242);
+    width: 88%;
+    padding: 14px;
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    resize: vertical;
+
+  }
+
+  p {
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+  }
+
+  div {
+    width: 13%;
+    display: flex;
+    margin: auto;
+
+  }
+
+  div>img {
+    width: 100%;
+  }
+
+  label {
+    font-size: 23px;
+  }
+  button {
+    width: 100%;
+    margin: auto;
+    border: none;
+    padding: 13px 21px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(6, 95, 6);
+    color: white;
+    text-align: center;
+
+  }
+  button:hover{
+      color: white;
+  }
+  #zp1{
+    width: 80%;
+    flex-direction: column;
+  }
+  #zp1>h6{
+      font-family: 'MuotoTrial';
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      color: #FA5D00;
+      text-transform: uppercase;
+  }
+  #zp1>h3{
+      font-family: 'WT Monarch Nova';
+      font-size: 48px;
+      line-height: 56px;
+      font-weight: 400;
+      color: #1D1E1C;
+      font-style: normal;
+      width: 70%;
+      text-decoration: none;
+      margin-top: -20px;
+  }
+  #zp2{
+      margin-left: 40px;
+      width: 65%;
+  }
+
+form>div{
+  width: 100%;
+  display: flex;
+}
+#nbtn{
+  width: 100%;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 8px;
+
+}
+#nbtn:hover{
+    background-color: rgb(153, 238, 204);
+}
+#nbtn>p{
+  margin-left: 29%;
+ 
+}
+#nbtn>img{
+width: 11%;
+border-radius: 50%;
+
+}
+#saf{
+  display: flex;
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/spiralyze/image/upload/f_auto/Harvest/Test-3001-free-trial-spz-baseline/background-min.jpg");
+
+}
+#meh{
+width: 100%;
+flex-direction: column;
+}
+#zp2>ul>li{
+  font-family: 'MuotoTrial';
+font-size: 17px;
+font-weight: 600;
+line-height: 24px;
+color: #1D1E1C;
+position: relative;
+margin-bottom: 16px;
+
+}
+
+     #last:hover{
+     background-color: green;
+     }  
+     #oo>a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+     }  
+     #oo>a:hover{
+       color: rgb(250,93,0);
+     }  
+     #mm>a:hover{
+        color: rgb(250,93,0);
+      }  
+     #mm>a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+     }        
+
